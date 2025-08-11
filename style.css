@@ -1,0 +1,491 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+		padding: 0;
+		margin: 0;
+		-webkit-box-sizing: border-box;
+				box-sizing: border-box;
+		-webkit-tap-highlight-color: transparent ;
+		font-family: "Poppins", sans-serif;
+	  }
+	  body {
+		background-color: #f5f5f5;
+	  }
+a {
+color: black;
+}
+	  section {
+		width: 100%;
+	  }
+	  .row {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+		padding: 2em 1em;
+		text-align: center;
+	  }
+	  .column {
+		width: 100%;
+		padding: 0.5em 0;
+	  }
+	  h1 {
+		width: 100%;
+		text-align: center;
+		font-size: 3.5em;
+		color: #000000;
+	  }
+
+ h3 {
+		width: 100%;
+		text-align: center;
+		font-size: 1.5em;
+		color: #000000;
+	  }
+
+	  .card {
+		background-color: #CDDFC3;
+		padding: 3.5em 1em;
+		border-radius: 0.6em;
+		-webkit-box-shadow: 0 0 2.2em rgba(25, 0, 58, 0.15);
+				box-shadow: 0 0 2.2em rgba(25, 0, 58, 0.15);
+		color: #1f003b;
+		-webkit-transition: 0.3s;
+		-o-transition: 0.3s;
+		transition: 0.3s;
+		cursor: pointer;
+	  }
+	  .card .img-container {
+		width: 8em;
+		height: 8em;
+		background-color: #ffffff;
+		padding: 0.5em;
+		border-radius: 50%;
+		margin: 0 auto 2em auto;
+		-webkit-transition: 0.3s;
+		-o-transition: 0.3s;
+		transition: 0.3s;
+	  }
+	  .card img {
+		width: 100%;
+		border-radius: 50%;
+	  }
+	  .card h3 {
+		font-weight: 500;
+      
+	  }
+	  .card p {
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		font-weight: 300;
+		margin: 0.5em 0 2em 0;
+	  }
+	  .icons {
+		width: 50%;
+		min-width: 180px;
+		margin: auto;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+			-ms-flex-pack: justify;
+				justify-content: space-between;
+	  }
+	  .card a {
+		text-decoration: none;
+		color: inherit;
+		font-size: 1.4em;
+	  }
+	  .card:hover {
+		background: -webkit-gradient(linear, left top, left bottom, from(#727A6E), to(#727A6E));
+		background: -o-linear-gradient(#727A6E, #727A6E);
+		background: linear-gradient(#727A6E, #727A6E);
+		color: #ffffff;
+	  }
+	  .card:hover .img-container {
+		background-color: rgba(255, 255, 255, 0.3);
+		-webkit-transform: scale(1.1);
+			-ms-transform: scale(1.1);
+				transform: scale(1.1);
+	  }
+
+      
+	  a#yt-link {
+		background-color: #727A6E;
+		display: block;
+		width: 95%;
+		font-size: 1.2em;
+		position: relative;
+		margin: 0 auto 2em auto;
+		padding: 1em 0;
+		text-align: center;
+		color: #ffffff;
+		text-decoration: none;
+		border-radius: 0.3em;
+		max-width: 25em;
+	  }
+      #main_card {
+width:75vw;
+height:730px;
+background: #CDDFC3;
+position: ;
+border-radius:90px;
+left:12.5vw;
+top:70px;
+text-align: center;
+padding: 3.5em 1em;
+		border-radius: 0.6em;
+		-webkit-box-shadow: 0 0 2.2em rgba(25, 0, 58, 0.15);
+				box-shadow: 0 0 2.2em rgba(25, 0, 58, 0.15);
+		color: #1f003b;
+		-webkit-transition: 0.3s;
+		-o-transition: 0.3s;
+		transition: 0.3s;
+		cursor: pointer;
+}
+
+#avtar {
+position: relative;
+margin: auto;
+background-image:url('./271926245_1782940088572159_774084385125147220_n.jpeg');
+width: 8em;
+		height: 8em;
+		background-color: #ffffff;
+		padding: 0.5em;
+		border-radius: 50%;
+		margin: 0 auto 2em auto;
+top:25px;
+border:6px solid rgb(85, 85, 85);
+background-size:cover;
+}
+
+	  @media screen and (min-width: 768px) {
+		section {
+		  padding: 1em 7em;
+		}
+	  }
+	  @media screen and (min-width: 992px) {
+		section {
+		  padding: 1em;
+		}
+		.card {
+		  padding: 5em 1em;
+		}
+		.column {
+		  -webkit-box-flex: 0;
+			  -ms-flex: 0 0 33.33%;
+				  flex: 0 0 33.33%;
+		  max-width: 33.33%;
+		  padding: 0 1em;
+		}}
+
+		@charset "UTF-8";
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
+
+body {
+  Background: silver;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.45;
+  background-image: url("https://assets.codepen.io/7752390/1127d8f34d5f9b2042ddff6ad8997fc2.jpg");
+  
+}
+
+header {
+  padding: 80px 0;
+  text-align: center;
+  padding: 32px 0;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  background-image: url("stars-bg.jpg");
+  background-color: #cccccc;
+  background-repeat: repeat-x;
+}
+ 
+
+h1 {
+  font-size: 48px;
+  margin: 0 0 16px 0;
+  
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 24px;
+  margin: 0 0 16px 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  max-width: 900px;
+}
+
+.menu {
+  border: solid;
+  border-color: black;
+  Background: black;
+}
+  
+.btn {
+  display: inline-block;
+  color: black;
+  font-weight: 00;
+  font-size: 20px;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #777777;
+}
+
+.button {
+  display: inline-block;
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+  background: #FFFFFF;
+  border: dotted black;
+  border-radius: 15px;
+  padding: 12px 60px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #777777;
+}
+
+section {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.features {
+  background: #FFFFFF;
+  color: #000000;
+}
+
+.feature {
+  width: 32%;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.feature img {
+  width: 40%;
+}
+
+.quote {
+  background: #8f8f8f;
+  color: #FFFFFF;
+}
+
+.quote2 {
+  background: #CDDFC3;
+  color: #FFFFFF;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+blockquote p {
+  margin: 0 0 5px 0;
+  font-size: 12px;
+}
+
+blockquote cite {
+  font-size: 16px;
+  font-style: italic;
+}
+
+blockquote cite:before {
+  content: "–";
+  margin-right: 5px;
+}
+
+footer {
+  background: #353535;
+  padding: 32px 0;
+  text-align: center;
+  color: #868686;
+  font-size: 12px;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer li a {
+  padding: 6px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #c3c3c3;
+}
+
+footer li a:hover {
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .btn {
+    display: block;
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin: 0 0 8px 0;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  section {
+    padding: 25px 0 15px 0;
+  }
+
+  .feature {
+    width: 100%;
+    text-align: left;
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .feature img {
+    width: 15%;
+    min-width: 60px;
+    margin-right: 20px;
+  }
+
+  .quote {
+    padding: 30px 0;
+  }
+
+  blockquote p {
+    font-size: 18px;
+  }
+
+  blockquote cite {
+    font-size: 14px;
+  }
+
+  footer {
+    padding: 30px 0 10px 0;
+  }
+
+  footer li {
+    display: block;
+    margin: 5px 0;
+  }
+
+  * {
+    box-sizing:border-box
+    }
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
